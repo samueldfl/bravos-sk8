@@ -29,7 +29,7 @@ export default function Navbar() {
 
       <main className="flex flex-col justify-center items-center h-44 shadow-lg space-y-4 px-4">
         <div className="flex mx-auto w-full justify-between items-center space-x-6 min-w-[1280px]:space-x-0 max-w-[1440px]">
-          <Image src="/imgs/logo.png" alt="Logo" width={150} height={150} />
+          <Image src="/imgs/logo.png" alt="logo" width={150} height={150} />
 
           <div className="hidden sm:flex items-center w-[50%]">
             <SearchBar />
