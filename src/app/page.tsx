@@ -1,3 +1,8 @@
+import Image from 'next/image'
 export default function Home() {
-  return <div>OII</div>
+  return (
+    <main className="flex justify-center">
+      <Image src="/imgs/home-image.png" alt={''} width={1440} height={1280} />
+    </main>
+  )
 }
