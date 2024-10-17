@@ -8,7 +8,7 @@ export interface SkateProps {
 
 export default function ProductBoard({ image, name, price }: SkateProps) {
   return (
-    <section className="flex flex-col md:flex-row justify-center-center py-8 mb-8 bg-white shadow-lg rounded-lg max-w-4xl mx-auto w-[90%] border-gray-800 items-center">
+    <section className="flex flex-col md:flex-row justify-center py-8 mb-8 bg-white shadow-lg rounded-lg max-w-4xl mx-auto w-[90%] border-gray-800 items-center">
       <div>
         <Image
           src={image}
