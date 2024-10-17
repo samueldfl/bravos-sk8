@@ -1,3 +1,7 @@
+import InstagramIcon from '@/svgs/instagram-icon'
+import WhatsappIcon from '@/svgs/whatsapp-icon'
+import Link from 'next/link'
+
 export default function Footer() {
   return (
     <footer className="bg-orange-600 text-white py-10 px-10">
@@ -68,6 +72,12 @@ export default function Footer() {
           Fique conectado - Explore, compartilhe e faça parte desse movimento
           conosco!
         </p>
+        <div className="flex mx-auto space-x-4 mt-3">
+          <Link href="https://www.instagram.com/bravoskates/profilecard">
+            <InstagramIcon />
+          </Link>
+          <WhatsappIcon />
+        </div>
       </div>
     </footer>
   )
